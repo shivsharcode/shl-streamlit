@@ -8,6 +8,12 @@ API_URL = "https://shl-backend-api-1.onrender.com/recommend"
 st.set_page_config(page_title = "SHL Assessment Recommender", layout="wide")
 
 st.title("🔍 SHL Assessment Recommendation Engine")
+st.markdown(
+    "ℹ️ **Note:** Render may put the backend API to sleep after inactivity. "
+    "To ensure it is awake, please visit the following link once before clicking **Recommend**: "
+    "[Wake up API 🔗](https://shl-backend-api-1.onrender.com/)"
+)
+
 st.markdown("Enter a job requirement or query to get the most relevant SHL assessments.")
 
 # ---------FORM INPUTS------------
