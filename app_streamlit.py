@@ -9,9 +9,14 @@ st.set_page_config(page_title = "SHL Assessment Recommender", layout="wide")
 
 st.title("🔍 SHL Assessment Recommendation Engine")
 st.markdown(
-    "ℹ️ **Note:** Render may put the backend API to sleep after inactivity. "
+    "⚠️ **Note:** Render may put the backend API to sleep after inactivity. "
     "To ensure it is awake, please visit the following link once before clicking **Recommend**: "
     "[Wake up API 🔗](https://shl-backend-api-1.onrender.com/)"
+)
+
+st.markdown(
+    "ℹ️ COMPLETE GITHUB PROJECT REPO 👉 "
+    "[GITHUB PROJECT REPO](https://github.com/shivsharcode/shl-assessment-recommender)"
 )
 
 st.markdown("Enter a job requirement or query to get the most relevant SHL assessments.")
